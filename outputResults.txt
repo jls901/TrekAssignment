@@ -1,79 +1,79 @@
 #1 Combo
 Bikes: Trek Fuel EX 9.8
-Number of households having combo: 4633
+Number of families having combo: 4633
 
 #2 Combo
 Bikes: Émonda SLR 9
-Number of households having combo: 1015
+Number of families having combo: 1015
 
 #3 Combo
 Bikes: Boone 7
-Number of households having combo: 958
+Number of families having combo: 958
 
 #4 Combo
 Bikes: Madone 9.5
-Number of households having combo: 763
+Number of families having combo: 763
 
 #5 Combo
 Bikes: Speed Concept 9.9
-Number of households having combo: 732
+Number of families having combo: 732
 
 #6 Combo
 Bikes: Farley 9.9
-Number of households having combo: 623
+Number of families having combo: 623
 
 #7 Combo
 Bikes: ZEKTOR i3
-Number of households having combo: 268
+Number of families having combo: 268
 
 #8 Combo
 Bikes: Boone 7,Trek Fuel EX 9.8
-Number of households having combo: 204
+Number of families having combo: 204
 
 #9 Combo
 Bikes: Madone 9.5,Trek Fuel EX 9.8
-Number of households having combo: 181
+Number of families having combo: 181
 
 #10 Combo
 Bikes: Session 9.9 DH
-Number of households having combo: 165
+Number of families having combo: 165
 
 #11 Combo
 Bikes: CrossRip 3
-Number of households having combo: 159
+Number of families having combo: 159
 
 #12 Combo
 Bikes: Émonda SLR 9,Trek Fuel EX 9.8
-Number of households having combo: 156
+Number of families having combo: 156
 
 #13 Combo
 Bikes: Speed Concept 9.9,Trek Fuel EX 9.8
-Number of households having combo: 133
+Number of families having combo: 133
 
 #14 Combo
 Bikes: Farley 9.9,Trek Fuel EX 9.8
-Number of households having combo: 123
+Number of families having combo: 123
 
 #15 Combo
 Bikes: FX S 4 Women's
-Number of households having combo: 117
+Number of families having combo: 117
 
 #16 Combo
 Bikes: Electra Loft 7D
-Number of households having combo: 101
+Number of families having combo: 101
 
 #17 Combo
 Bikes: Fuel EX 9
-Number of households having combo: 95
+Number of families having combo: 95
 
 #18 Combo
 Bikes: Verve 3
-Number of households having combo: 79
+Number of families having combo: 79
 
 #19 Combo
 Bikes: Superfly 20,Trek Fuel EX 9.8
-Number of households having combo: 67
+Number of families having combo: 67
 
 #20 Combo
 Bikes: CrossRip 3,Trek Fuel EX 9.8
-Number of households having combo: 60
+Number of families having combo: 60

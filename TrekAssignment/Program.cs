@@ -53,7 +53,7 @@ namespace TrekAssignment
             {
                 var comboPlace = string.Format("#{0} Combo", bikeComboPlace); 
                 var bikeCombo = string.Format("Bikes: {0}", combo.Key); 
-                var numberOfBikeComboOwners = string.Format("Number of households having combo: {0}", combo.Value); 
+                var numberOfBikeComboOwners = string.Format("Number of families having combo: {0}", combo.Value); 
                 Console.WriteLine(comboPlace);
                 Console.WriteLine(bikeCombo);
                 Console.WriteLine(numberOfBikeComboOwners);
