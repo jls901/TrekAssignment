@@ -17,8 +17,8 @@ namespace TrekAssignment
             var getBikeDataTask = GetHouseholdBikeData();
             getBikeDataTask.Wait();
             var householdBikeData = getBikeDataTask.Result;
-            var rankedHouseholdBikeCombos = RankHouseholdBikeCombinations(householdBikeData); 
-            PrintRankedBikeComboResults(rankedHouseholdBikeCombos);
+            var groupedHouseholdBikeCombos = GroupHouseholdBikeCombinations(householdBikeData); 
+            RankAndPrintBikeComboResults(groupedHouseholdBikeCombos);
         }
 
         private static async Task<IEnumerable<HouseholdBikesModel>> GetHouseholdBikeData()
@@ -28,7 +28,7 @@ namespace TrekAssignment
             return JsonConvert.DeserializeObject<List<HouseholdBikesModel>>(rawHouseholdBikeResults);
         }
 
-        private static IDictionary<string, int> RankHouseholdBikeCombinations(IEnumerable<HouseholdBikesModel> householdBikeCombinations)
+        private static IDictionary<string, int> GroupHouseholdBikeCombinations(IEnumerable<HouseholdBikesModel> householdBikeCombinations)
         {
             var result = new Dictionary<string, int>();
             foreach (var household in householdBikeCombinations)
@@ -46,7 +46,7 @@ namespace TrekAssignment
             return result;
         }
 
-        private static void PrintRankedBikeComboResults(IDictionary<string, int> bikeCombos)
+        private static void RankAndPrintBikeComboResults(IDictionary<string, int> bikeCombos)
         {
             var bikeComboPlace = 1; 
             foreach(var combo in bikeCombos.OrderByDescending(x => x.Value).Take(20))
